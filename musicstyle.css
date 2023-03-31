@@ -1,0 +1,56 @@
+.header {
+    width: 97%;
+}
+
+.view {
+    width: 63%;
+    float: left;
+    padding: 5px;
+    height: 100vh;
+}
+
+.list {
+    width: 34.36%;
+    float: left;
+    padding: 5px;
+    height: 100vh;
+    border-radius: 10px;
+    background-color: #4a4d82;
+}
+
+
+.player-wrap {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px; 
+    flex: 1;
+    width: 97%;
+    height: 100vh;
+    background-color: #1e1f30;
+}
+
+.fx {
+    color:antiquewhite;
+    position: relative;
+    animation-direction: normal;
+    animation-duration: 1000ms;
+    animation-timing-function: cubic-bezier(0.7, 0.07, 0.63, 0.87);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(3vh);
+   }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+   }
+}
+.fade-in {
+    opacity: 0;
+    animation-name: fadeIn;
+}
