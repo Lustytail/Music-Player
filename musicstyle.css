@@ -2,6 +2,7 @@
     background-color:  #11121e;
     display: grid;
     height: 95vh;
+    min-width: 300px;
 }
 
 /* 플레이어 공간*/
@@ -12,6 +13,7 @@
     border-radius: 5px; 
     flex: 1;
     width: 70%;
+    min-width: 530px;
     height: 70%;
     background-color: #1e1f30;
     justify-self: center;
@@ -22,6 +24,7 @@
     padding: 5px;
     height: 100%;
     box-sizing: border-box;
+    min-width: 350px;
 }
 .list {   /* 오른쪽 플레이 리스트 공간 */
     width: 35%;
@@ -30,6 +33,7 @@
     border-radius: 10px;
     background-color: #4a4d82;
     box-sizing: border-box;
+    min-width: 180px;
 }
 
 /* 애니메이션 공간 */
@@ -82,6 +86,7 @@
     flex-direction: row;
     align-items: center;
     width: 80%;
+    min-width: 270px;
 }
 
 /* 이미지 공간 */
@@ -94,12 +99,14 @@
     overflow: hidden;
     text-indent: -1000px;
     border-radius: 1000px;
-    border: 2px solid whitesmoke;
-    margin-left: 10px;
-    margin-right: 10px;
+    border: 2px solid rgb(161, 104, 208);
+    /*margin-left: 10px;
+    margin-right: 10px;*/
     background-color: #32334f;
     background-image: linear-gradient(45deg, #32334f, #4f527e);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    width: 55px;
+    height: 90%;
 }
 
 /* 가수/제목 공간 */
